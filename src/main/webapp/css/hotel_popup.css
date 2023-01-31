@@ -1,0 +1,362 @@
+ .detailedinfo_popup{
+   position: absolute;
+   width: 100%;
+   height: 100%;
+   z-index: 999;
+   display: none;
+ }
+ .detailedinfo_popup_content {
+   box-sizing: border-box;
+   border-radius: 8px;
+   width: 700px;
+   background: #fff;
+   position: relative;
+   margin: auto;
+   padding:30px;
+   position: fixed;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+   z-index: 99;
+ }
+ .detailedinfo_popup_top{
+   display: flex;
+   justify-content: space-between;
+   font-size: 24px;
+   font-weight: 700;
+ }
+ .detailedinfo_popup_body{
+   box-sizing: border-box;
+   height: 400px;
+   margin: 30px 0;
+   font-size: 15px;
+ }
+ .detailedinfo_popup_body::-webkit-scrollbar {
+   display:none;
+ }
+.detailedinfo_title {
+	width: 100%;
+	padding: 15px;
+	background: #e5e5e5;
+	font-weight: bold;
+	font-size: 14px;
+	box-sizing: border-box;
+}
+.detailedinfo_content {
+	margin-bottom: 15px;
+}
+.content {
+	display: flex;
+	font-size: 14px;	
+}
+.subtitle {
+    color: #999999;
+    width: 33%;
+    padding: 15px;
+}
+.subcontent {
+	padding: 15px;
+}
+.close_button {
+ cursor: pointer;
+ }
+ 
+ /* //////////////////////////////////////////// */
+ .refund_rule_popup{
+   position: absolute;
+   width: 100%;
+   height: 100%;
+   z-index: 999;
+   display: none;
+ }
+ .refund_rule_popup_content {
+   box-sizing: border-box;
+   border-radius: 8px;
+   width: 700px;
+   background: #fff;
+   position: relative;
+   margin: auto;
+   padding:30px;
+   position: fixed;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+   z-index: 99;
+ }
+.refund_rule_popup_top{
+   display: flex;
+   justify-content: space-between;
+   font-size: 24px;
+   font-weight: 700;
+   margin-bottom: 20px;	
+ }
+.refund_rule_title {
+	width: 100%;
+	padding: 15px;
+	background: #e5e5e5;
+	font-weight: bold;
+	font-size: 14px;
+}
+ .body_container.refundrule{
+   height: auto;
+   line-height: 1.5;
+   font-size: 15px;
+   font-weight: 500;
+   overflow-y: scroll !important;
+   border-top: 1px solid black;
+ }
+ .body_container::-webkit-scrollbar {
+   display:none;
+ }
+ .body_wrapper.refundrule {
+ 	height: auto;
+ 	margin-bottom: 15px;
+ }
+ .body_title.refundrule{
+   font-size: 18px;
+   font-weight: bold;
+   margin: 15px 0 10px;
+ }
+ .body_list>li{
+   list-style: disc;
+   list-style-position: inside;
+ }
+ .body_content.refundrule {
+ 	color: #e5e5e5;
+ 	height: 100%;
+ 	font-size: 14px;
+ }
+
+ /* //////////////////////////////////////////// */
+ .installment_popup{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 999;
+  display: none;
+ }
+ .installment_popup_content{
+   box-sizing: border-box;
+   border-radius: 8px;
+   width: 700px;
+   background: #fff;
+   position: relative;
+   margin: auto;
+   padding:30px;
+   position: fixed;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+   z-index: 99;
+ }
+ .installment_popup_top{
+   display: flex;
+   justify-content: space-between;
+   font-size: 24px;
+   font-weight: bold;
+   border-bottom: 1px solid;
+ }
+.installment_popup_title{
+   margin-bottom: 25px;
+}
+.installment_list{
+	padding: 20px;
+	border-bottom: 1px solid #e5e5e5;
+	font-size: 15px;
+	font-weight: 500;
+	display: flex;
+	justify-content: space-between;	 
+}
+ .installment_list_wrapper{
+   height: 470px;
+   line-height: 1.5;
+   font-size: 15px;
+   font-weight: 500;
+   overflow-y: scroll !important;
+   border-top: 1px solid black;
+ }
+ .installment_list_wrapper::-webkit-scrollbar {
+   display:none;
+ }
+ .installment_content {
+ 	width: 80%;
+ }
+
+ /* //////////////////////////////////////////// */
+.hotel_rule_popup{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 999;
+  display: none;
+ }
+ .hotel_rule_popup_content{
+   box-sizing: border-box;
+   border-radius: 8px;
+   width: 700px;
+   background: #fff;
+   position: relative;
+   margin: auto;
+   padding:30px;
+   position: fixed;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+   z-index: 99;
+ }
+ .hotel_rule_popup_top{
+   display: flex;
+   justify-content: space-between;
+   font-size: 24px;
+   font-weight: bold;
+   border-bottom: 1px solid;
+ }
+.hotel_rule_popup_title{
+   margin-bottom: 35px;
+}
+ .hotel_rule_list{
+   padding: 30px 20px;
+/*    border-top: 1px solid black; */
+   font-size: 15px;
+   font-weight: 500;
+ 
+ }
+ .hotel_rule_list>li{
+   list-style: disc;
+   line-height: 1.7;
+   
+ }
+ /* //////////////////////////////////////////// */
+ .hotel_reservation_refund_popup{
+   position: absolute;
+   width: 100%;
+   height: 100%;
+   z-index: 999;
+   display: none;
+  }
+  .hotel_reservation_refund_popup_content{
+   box-sizing: border-box;
+   border-radius: 8px;
+   width: 800px;
+   height: 600px;
+   background: #fff;
+   position: relative;
+   margin: auto;
+   padding:30px;
+   position: fixed;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+   z-index: 99;
+ }
+ .hotel_reservation_refund_popup_top{
+   display: flex;
+   justify-content: space-between;
+   font-size: 24px;
+   font-weight: bold;
+   margin-bottom: 35px;
+ }
+   
+ .body_container{
+   height: 470px;
+   line-height: 1.5;
+   font-size: 15px;
+   font-weight: 500;
+   overflow-y: scroll !important;
+   border-top: 1px solid black;
+ }
+ .body_container::-webkit-scrollbar {
+   display:none;
+ }
+ .body_wrapper {
+ 	height: 100%
+ }
+ .body{
+   margin-bottom: 30px;
+ }
+ .body_title{
+   font-size: 18px;
+   font-weight: bold;
+   margin-bottom: 20px;
+ }
+ .body_list>li{
+   list-style: disc;
+   list-style-position: inside;
+ }
+ .body_content {
+ 	color: #e5e5e5;
+ }
+ /* ////////////////////////////////////////// */
+ .privacy_popup{
+   position: absolute;
+   width: 100%;
+   height: 100%;
+   z-index: 999;
+   display: none;
+ }
+ .dim{
+   background: rgba(0,0,0,0.5);
+   width: 100%;
+   height: 100%;
+   position: fixed;
+   z-index: 99;
+   top: 0;
+   left: 0;
+ }
+ .privacy_popup_content {
+   box-sizing: border-box;
+   border-radius: 8px;
+   width: 700px;
+   background: #fff;
+   position: relative;
+   margin: auto;
+   padding:30px;
+   position: fixed;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+   z-index: 99;
+ }
+ .privacy_popup_top{
+   display: flex;
+   justify-content: space-between;
+   font-size: 24px;
+   font-weight: 700;
+ }
+ .privacy_popup_body{
+   box-sizing: border-box;
+   height: 400px;
+   margin: 30px 0;
+   overflow-y:scroll;
+   font-size: 15px;
+   padding: 16px;
+   border-top: 1px solid black;
+ }
+ .privacy_popup_body::-webkit-scrollbar {
+   display:none;
+ }
+ .policy{
+   margin-bottom: 40px;
+ }
+ .policy>p{
+   margin: 10px 0;
+   line-height: 1.5;
+   color: #282f33;
+ }
+ 
+ .summary>ul{
+   color: #282f33;
+ }
+ .summary>ul>h2{ 
+   margin: 20px 0;
+ }
+ .summary>ul>li{
+   list-style:disc;
+   list-style-position: inside;
+   padding-top: 5px;
+ }
+.close_button {
+ cursor: pointer;
+ }
+ 
+ /* ///////////////////////////////////////////////// */

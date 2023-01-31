@@ -1,0 +1,70 @@
+* {
+	font-family: 'SUIT', sans-serif;
+}
+body{
+    margin: 0;
+}
+.container {
+	display: flex;
+    justify-content: center;
+}
+button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border: 0;
+    outline: 0;
+    background-color: white;
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+.icon-left {
+	color: gray;
+    margin-right: 30%;
+}
+.icon-right {
+    color: gray;
+    margin-left: 30%;
+}
+table {
+	width: 100%;
+    border-spacing: 28px 5px;
+}
+tr{ 
+	height: 90px;
+}
+td{
+    font-size: 13px;
+}
+.day{
+	font-size: 13px;
+	color: gray;
+}
+.sun {
+	color: #FF0076;
+}
+.item_section{
+    text-align: center;
+    font-size: 18px;
+    width: 100%;
+}
+#week{
+    font-size: 30px;
+    display:none;
+}
+#date{
+    font-size: 70px;
+    display:none;
+}
+.top-bar{
+    display: inline;
+    font-weight: bold;
+}
+.today-color{
+    color: #d91c84;
+}
+.click-circle{
+    border-radius: 50%;
+    background: #d91c84;
+    color: white;
+}

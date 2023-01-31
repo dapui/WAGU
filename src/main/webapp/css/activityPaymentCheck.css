@@ -1,0 +1,181 @@
+* {font-family: 'SUIT', sans-serif;}
+body { margin:0 }
+div.announcement_area {
+	margin: 100px 0;
+	text-align: center;
+}
+div.announcement_area > div.payment_announcement {
+	font-weight: 600;
+	max-width: 1366px;
+	width:100%;
+	margin: 0 auto;
+}
+div.payment_announcement > i {
+	color: #d91c84;
+	font-size: 35px;
+	margin-bottom: 10px;
+}
+div.announcement_area > div.purchase_detail {
+	border: 1px solid #e5e5e5;
+	border-radius: 4px;
+	width: 10%;
+	height: 8%;
+	padding:  10px 18px;
+	margin: 15px auto 0 ;
+	background-color: #d91c84;
+	font-size: 13px;
+	color: white;
+	cursor: pointer;
+}
+div.reservation_info {
+	max-width: 1366px;
+	width:100%;
+	margin: 0 auto;
+}
+div.reservation_info > div.title {
+	font-size: 20px;
+	font-weight: bold;	
+	margin: 0 0 20px 30px;
+}
+div.reservation_info > div.goods_border {
+	background-color: #F5F5F5;
+	padding: 30px;	
+	border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+div.goods_border > div.goods_info {
+	background-color: white;
+	padding: 30px;
+	border-radius: 5px;
+}
+div.goods_border > div.goods_info img {
+	vertical-align: -4px;
+	margin-right: 2px;	
+}
+div.goods_info > h3 {
+	font-size: 18px;
+	margin-bottom: 3px;
+}
+div.goods_info > p.option_name {
+	font-size: 14px;
+	font-weight: 500;
+	margin-bottom: 10px;
+}
+div.goods_info > p.use_date {
+	font-size: 14px;
+	font-weight: 500;
+	margin-bottom: 3px;
+}
+div.goods_info > div.option_amount {
+	margin-top: 7px;
+	font-size: 14px;
+	display: flex;
+}
+div.option_amount > p.option_in_option {
+	margin-right: 200px
+}
+div.goods_info > div.activity_title {
+	padding-bottom: 10px; 
+	border-bottom: 2px solid #F5F5F5;
+	font-weight: 500;
+}
+div.goods_info > div.goods_area {
+	display: flex;
+	margin-top: 20px;
+}
+div.goods_area > div.image {
+	width: 140px;
+	height: 140px;
+	overflow: hidden;
+	position: relative;
+}
+div.image img {
+	position: absolute;
+	width: auto;
+	height: 100%;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+div.goods_area > div.goods_info {
+	margin-left: 20px;
+}
+div.goods_area > div.reservation_detail_info {
+	margin-left: auto;
+	border: 1px solid #cfcfcf;
+	border-radius: 4px;
+	padding: 8px 50px;
+	font-size: 14px;
+	height: 16px;
+	cursor: pointer;
+}
+div.payment_info_area {
+	margin: 100px;
+	max-width: 1366px;
+	width:100%;
+	margin: 40px auto;
+	border: 1px solid #F5F5F5;
+	border-radius: 4px;
+	padding: 40px;
+	box-sizing: border-box;
+}
+div.payment_info_area > div.payment_info {
+	font-size: 20px;
+	font-weight: bold;
+	margin-bottom: 25px;
+}
+div.payment_area {
+	display: flex;
+	justify-content: space-between;
+}
+div.payment_section {
+	width: 40%;
+}
+div.payment_section > div.method_of_payment {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+}
+div.payment_section > div.payment_price {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+}
+div.payment_section > div.coupon_amount {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+}
+.payment_title {
+	color: #C0C0C0;
+}
+.payment_content {
+	font-size: 13px;
+	margin-bottom: 15px;
+}
+div.total_price {
+	display: flex;
+    justify-content: space-between;
+    width: 50%;
+}
+.total_title {
+	font-weight: 500;
+}
+.total_content {
+	font-weight: 600;
+	color: #DB278A
+}
+@media screen and (max-width: 1366px) {
+    .announcement_area {
+        padding: 0 1em;
+	box-sizing: border-box;
+    }
+    .reservation_info {
+        padding: 0 1em;
+	box-sizing: border-box;
+    }
+    .payment_info_area {
+        padding: 0 1em;
+	box-sizing: border-box;
+    }
+}

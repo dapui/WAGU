@@ -1,0 +1,342 @@
+body {
+	margin: 0;
+	font-family: 'SUIT';
+	display: block;
+}
+body::-webkit-scrollbar {
+	display: none;	
+}
+.hotel_header {
+	height: 378px;
+}
+
+.hotel_header > .background {
+	max-width:100%;
+	height: 378px;
+	background-color: #333333;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center bottom;
+	position: relative;
+}
+
+.background_cover {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.3);
+}
+
+.head_title_cover {
+	width: 238.48px;
+	height: 100px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.head_title {
+	width: 238.48px;
+	height: 80px;
+	color: #ffffff;
+	font-size: 64px;
+	font-weight: 600;
+	text-align: center;
+	margin-bottom: 0px 0px 20px;
+}
+
+.search_hotel {
+	background-color: #fafafa;
+	padding-top: 58px;
+	height: 58px;
+	width:100%;
+	max-width:1366px;
+	margin: 0 auto;
+}
+
+.search_hotel_position {
+	width: calc(100% - 40px);
+	max-width: 1366px;
+	margin: 0 auto;
+	position: relative;
+}
+
+.search_hotel_section {
+	width: 1366px;
+	height: 116px;
+	position: absolute;
+	border-radius: 8px;
+	background-color: #ffffff;
+	bottom: 100%;
+	padding: 30px;
+	box-sizing: border-box;
+	box-shadow: 0 0 4px 0 rgb(0 0 0/ 10%);
+	width: 100%;
+	z-index: 11;
+}
+
+.search_hotel_wrapper {
+	width: 100%;
+	height: 56px;
+	display: flex;
+}
+
+.box {
+	height: 56px;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	padding: 0 15px;
+	border: 1px solid #e5e5e5;
+	border-radius: 4px;
+	box-sizing: border-box;
+	position: relative;
+	margin-right: 10px;
+}
+
+.button-wrapper {
+	flex: 6;
+}
+
+.box:nth-child(1) {
+	flex: 12;
+}
+
+.box:nth-child(2) {
+	flex: 7;
+	cursor: pointer;
+}
+
+.box:nth-child(3) {
+	flex: 9;
+	margin-right: 20px;
+}
+
+.search_lens {
+	width: 18px;
+	height: 18px;
+	margin-right: 10px;
+}
+.text_input {
+	position: relative;
+	width: 100%;
+}
+.text_input>input {
+	display: block;
+	width: 100%;
+	box-sizing: border-box;
+	border: 0;
+	outline: none;
+	text-overflow: ellipsis;
+	appearance: none;
+	background-color: transparent;
+}
+.search_x_icon {
+	position: absolute;
+    top: 50%;
+    left: 93%;
+    transform: translateY(-50%);
+    display: flex;
+    width: 14px;
+    height: 14px;
+    background-color: #e5e5e5;
+    border-radius: 50%;
+    cursor: pointer;
+    align-items: center;
+    display: none;
+}
+.search_x_icon>img {
+	width: 7px;
+    height: 7px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-40%, -40%);
+}
+
+.search_popup {
+	max-width: 100%;
+	overflow: auto;
+	position: absolute;
+	left: 0;
+	min-width: 100%;
+	top: calc(100% + 10px);
+	padding: 20px;
+	box-sizing: border-box;
+	box-shadow: 0 0 10px 0 rgb(0 0 0/ 10%);
+	background-color: #ffffff;
+	border-radius: 4px;
+	z-index: 100;
+	display: none;
+}
+
+.search_area_list {
+	margin: 10px 0px 0px 0px; 
+	width : 68px;
+	float: left;
+	border-right: 1px solid #f5f5f5;
+	width: 68px;
+}
+
+.search_area_listdetails {
+	margin: 10px 0px 0px 0px;
+	font-size: 14px;
+	width: 280px;
+	float: right;
+}
+
+.search_area_list_wrapper {
+	margin: 10px 10px 20px 10px;
+	height: 22px;
+	font-size: 15px;
+	font-weight: 500;
+	overflow: hidden;
+	cursor: pointer;
+	
+}
+
+.search_area_list_wrapper.active {
+	color: #d91c84;
+	
+}
+
+.search_area_listdetails_wrapper>.tap {
+	height: 20px;
+	margin-bottom: 22px;
+	margin-top: 11px;
+	cursor: pointer;
+}
+
+.search_area_listdetails_wrapper {
+	display: none;
+}
+.search_area_listdetails_wrapper.active {
+	display: block !important;
+}
+
+.checkinoutbox {
+	position: relative;
+	height: 56px;
+/* 	border: 1px solid #e5e5e5;  */
+	width: 270px;
+}	
+.nexticon {
+	position: absolute;
+	top: 24px;
+	left: 127px;
+	width: 16px;
+	height: 16px;
+}
+.checkinout {
+	font-size:14px;
+	font-weight: 500;
+	border: none;
+	width: 260px;
+	padding: 0 0 0 7px;
+	margin: 8px 0;
+	outline: none;
+}
+.checkinoutlogo {
+	margin: 7px 0 -8px;
+}
+.checkinoutlogo::before {
+	content: '체크인';
+	font-size: 10px;
+	color: #b5b5b5;
+	margin: 0 7px 0;
+}
+.checkinoutlogo::after {
+	content: '체크아웃';
+	font-size: 10px;
+	color: #b5b5b5;
+	margin-left: 151px;
+}
+
+.checkpeople {
+	font-size: 15px;
+	font-weight: 500;
+	width: 100%;
+    margin: 18px 0;
+}
+
+.checkpeople_popup {
+	position: absolute;
+	left: 0;
+	min-width: 100%;
+	top: calc(100% + 10px);
+	padding: 20px;
+	box-sizing: border-box;
+	box-shadow: 0 0 10px 0 rgb(0 0 0/ 10%);
+	background-color: #ffffff;
+	border-radius: 4px;
+	z-index: 100;
+	display: none;
+}
+
+.checkpeople_popup_section {
+	padding: 10px 10px;
+}
+
+.checkpeople_popup_wrapper {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.checkpeople_popup_wrapper>.title {
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.number_input_section {
+	width: 132px;
+}
+
+.number_input_wrapper {
+	display: inline-flex;
+	width: 100%;
+	border-radius: 4px;	
+	border: 1px solid #e5e5e5;
+}
+
+.number_input_wrapper>.button {
+	cursor: pointer;
+	width: 40px;
+	height: 48px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: none;
+	background: #ffffff;
+}
+.number_input_wrapper>.button.minus {
+	border-right: 1px solid #e5e5e5;
+}
+.number_input_wrapper>.button.plus {
+	border-left: 1px solid #e5e5e5;
+}
+.number_input_wrapper>.number {
+	color: #d01c84;
+	width: 40%;
+	border: none;
+	text-align: center;
+}
+
+@media screen and (max-width: 1366px) {
+	.search_hotel{
+		padding: 0 1em;
+		box-sizing: border-box;
+	}
+}
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,211 @@
+.bestReview_top_img {
+  display: block;
+  width: 100%;
+  margin-bottom: 3em;
+}
+.bestReview_tit {
+  font-size: 5rem;
+  text-align: center;
+}
+.bestReview_search {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  max-width: 400px;
+  margin: 2em 0 2em auto;
+  background: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0px 1px 3px #b9b8b8;
+  box-sizing: border-box;
+}
+.bestReview_search > i {
+  color: #ccc;
+  font-size: 1.8rem;
+}
+.bestReview_search > input {
+  width: calc(100% - 30px);
+  margin-left: auto;
+  background: transparent;
+  font-size: 1.8rem;
+  border: none;
+}
+.bestReview_board {
+  margin-top: 3em;
+  padding:1em 0;
+  border-top: 2px solid #ccc;
+}
+.bestReview_board_list {}
+.bestReview_board_list > li {
+  padding: 1em 2em;
+  border-bottom: 1px solid #ccc;
+  box-sizing: border-box;
+}
+.bestReview_board_list > li .link {
+  display: flex;
+  justify-content: space-between;
+}
+.bestReview_board_list > li .list_img {
+  overflow: hidden;
+  position: relative;
+  width: 150px;
+  border-radius: 5px;
+}
+.bestReview_board_list > li .list_img img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: auto;
+  /* max-width: 100%; */
+  height: 100%;
+  border-radius: 5px;
+  transition: all 0.3s;
+  transform: translate(-50%, -50%);
+}
+.bestReview_board_list > li:hover .list_img img {
+  transform: translate(-50%, -50%) scale(1.1);
+}
+.bestReview_board_list > li .list_info {
+  width: calc(100% - 180px);
+  padding: 10px;
+  line-height: 1.6;
+  box-sizing: border-box;
+}
+.bestReview_board_list > li .list_info_title {
+  font-weight: 600;
+}
+.bestReview_board_list > li:hover .list_info_title {
+  color: #d91c84;
+  text-shadow: 3px 3px #e6e2e2;
+}
+.bestReview_board_list > li .list_info_name {
+  display: inline-block;
+  font-size: 1.4rem;
+}
+.bestReview_board_list > li .list_info_date {
+  display: inline-block;
+  margin:0 10px;
+  color: #999;
+  font-size: 1.4rem;
+}
+.bestReview_board_list > li .list_info_score {
+  font-size: 1.4rem;
+}
+.bestReview_board_list > li .list_info_score .score_icon {
+  width: 11px;
+}
+.bestReview_board_list > li .list_info_cont {
+  overflow:hidden; width:100%; 
+  color: #a8a6a6;
+  font-size: 1.4rem;
+  text-overflow:ellipsis; 
+  white-space: nowrap; 
+  word-wrap:normal;
+}
+.bestReview_pagination {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin: 2em auto;
+}
+.bestReview_pagination_btn {
+  width: 40%;
+  padding: 1em 0;
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #555;
+  background: #fff;
+  text-align: center;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.bestReview_pagination_btn:hover {
+  color: #fff;
+  background: #d91c84;
+  border: 1px solid #d91c84;
+}
+.bestReview_pagination_num {
+  width: calc(20% - 60px);
+  padding: 1em 0;
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #555;
+  background: #fff;
+  text-align: center;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.bestReview_pagination_num:hover {
+  color: #fff;
+  background: #ff6bbd;
+  border: 1px solid #ff6bbd;
+}
+.bestReview_pagination_area {
+  display: none;
+  width: 100%;
+  padding: 2em 1em;
+  margin-top: 2em;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0px 1px 3px #b9b8b8;
+  box-sizing: border-box;
+}
+.bestReview_pagination_list {
+  display: flex;
+  flex-wrap: wrap;
+}
+.bestReview_pagination_list > li {
+  width: calc(10% - 20px);
+  margin: 5px 10px;
+  text-align: center;
+  border-radius: 5px;
+}
+.bestReview_pagination_list > li:hover {
+  box-shadow: 3px 3px 3px #555;
+}
+.bestReview_pagination_list > li .link {
+  display: block;
+  padding: 10px 0;
+  color: #fff;
+  background: #d91c84;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+.bestReview_pagination_list > li:hover .link {
+  background: #ff6bbd;
+}
+@media screen and (max-width: 768px) {
+  .bestReview_search {
+    max-width: 100%;
+  }
+  .bestReview_board_list > li {
+    padding: 1em;
+  }
+  .bestReview_board_list > li .list_img {
+    width: 120px;
+  }
+  .bestReview_board_list > li .list_info {
+    width: calc(100% - 130px);
+  }
+  .bestReview_board_list > li .list_info_title {
+    overflow: hidden;
+    white-space: normal;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    font-size: 1.5rem;
+  }
+  .bestReview_pagination_num {
+    width: calc(20% - 30px);
+  }
+  .bestReview_pagination_list > li {
+    width: calc((100% / 6) - 10px);
+    margin: 5px;
+  }
+  .bestReview_pagination_list > li .link {
+    padding:5px 0;
+  }
+}

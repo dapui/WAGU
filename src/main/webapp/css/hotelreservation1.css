@@ -1,0 +1,209 @@
+body {
+	margin: 0;
+	font-family: 'SUIT', sans-serif;
+	display: block;
+}
+body::-webkit-scrollbar {
+	display: none;	
+}
+.main.sub {
+	width:100%;
+	max-width:1366px;
+	margin: 0 auto;
+}
+.border {
+	height: 1px;
+}
+.hotel_reservation {
+	margin-bottom: 20px;
+}
+.hotel_info_section {
+	border: 1px solid #e5e5e5;
+	border-radius: 8px;
+	width: 768px;
+	margin: auto;
+	margin-top: 40px;
+	padding: 40px;
+}
+.hotel_info_section > .title {
+	font-size: 24px;
+	font-weight: bold;
+}
+.hotel_info_wrapper {
+	width: 768px;
+	display: flex;
+	height: 155px;
+	margin-top: 10px;
+}
+.hotel_info_wrapper > .image {
+	width: 216px;
+	height: 155px;
+	border: 1px solid #e5e5e5;
+	border-radius: 4px;
+	background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.hotel_info_wrapper > .content {
+	display: flex;
+	flex-direction: column;
+	margin-left: 30px;
+}
+.content > .name {
+	height: 27px;
+    font-size: 18px;
+    font-weight: 500;
+}
+.hotel_info_wrapper > .content > .city {
+	font-size: 14px;
+	color: #999999;
+}
+.content_box {
+	display: flex;
+}
+
+.content_box > .sub {
+	margin-top:10px;
+	width: 72px;
+	font-size: 14px;
+	color: #999999;
+}
+.content_box > .sub_content {
+	margin-left: 20px;
+	font-size: 14px;
+	margin-top: 10px;
+}
+.hotelroom_info_wrapper {
+	border-radius: 4px;
+	background-color: #fafafa;
+	margin-top: 20px;
+	padding: 30px 22px;
+	display: flex;
+}
+.hotelroom_info_wrapper > .image {
+	width: 180px;
+	height: 118px;
+	border: 1px solid #e5e5e5;
+	border-radius: 4px;
+	background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.hotelroom_info_wrapper > .content {
+	display: flex;
+	flex-direction: column;
+	margin-left: 30px;
+}
+.content > .description {
+	display: flex;
+}
+.content > .description > span {
+	background-color: #f5f5f5;
+	border-radius: 3px;
+	font-weight: 500;
+	font-size: 15px;
+	padding: 2px 8px;
+	height: 22px;
+}
+.people_info_section {
+	border: 1px solid #e5e5e5;
+	border-radius: 8px;
+	width: 768px;
+	margin: auto;
+	margin-top: 40px;
+	padding: 40px;
+}
+.people_info_section > .title {
+	font-size: 24px;
+	font-weight: bold;
+}
+.people_info_section > .sub_title {
+	font-size: 13px;
+	margin: 5px 0 30px;
+	color: #999999;
+}
+.member_info_input {
+	margin-bottom: 20px;
+}
+.member_info_input > .title {
+	font-size: 17px;
+}
+.member_info_input > .input {
+	border-radius: 4px;
+	border: 1px solid #e5e5e5;
+	width: 500px;
+	height: 28px;
+	margin: 20px 0 20px;
+	padding: 10px;
+}
+.phone_number > .input {
+	border-radius: 4px;
+	border: 1px solid #e5e5e5;
+	width: 58px;
+	height: 38px;
+	padding: 0 10px;
+	margin: 20px 10px 20px 0;
+}
+.check_info{
+	display: flex;
+	margin-bottom: 20px;
+	height: 20px;
+	align-items: center;
+	margin: 5px 0 30px;
+	font-size: 13px;
+}
+.check_info > .checkbox {
+	width: 11px;
+	height: 11px;
+	border: 1px solid #e5e5e5;
+	margin-right: 5px;
+	cursor: pointer;
+}
+.next_button_section {
+	margin-top: 40px;
+    margin-bottom: 80px;
+}
+.next_button{
+	width: 420px;
+	height: 56px;
+	display: flex;
+	border-radius: 4px;
+	background-image: linear-gradient(to right, #f50364, #ac42a9);
+    color: #ffffff;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 1366px) {
+	.main.sub{
+		padding: 0 1em;
+		box-sizing: border-box;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

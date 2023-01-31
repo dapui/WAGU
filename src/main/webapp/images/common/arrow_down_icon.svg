@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="11px" height="7px" viewBox="0 0 11 7" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61.2 (89653) - https://sketch.com -->
+    <title>more_unfold</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="1223_Web_필터1-지역" transform="translate(-356.000000, -645.000000)" fill-rule="nonzero">
+            <g id="Group-2" transform="translate(100.000000, 582.000000)">
+                <g id="1depth-copy-144" transform="translate(0.000000, 53.000000)">
+                    <g id="Group" transform="translate(26.000000, 3.000000)">
+                        <g id="more_unfold" transform="translate(236.000000, 11.000000) scale(1, -1) rotate(-180.000000) translate(-236.000000, -11.000000) translate(228.000000, 3.000000)">
+                            <rect id="area" fill="#000000" opacity="0" x="0" y="0" width="16" height="16"></rect>
+                            <path d="M7.47362609,10.0649856 C7.85456553,10.4853326 8.48155423,10.4796593 8.85655423,10.0510878 L13.0841922,5.21950153 C13.2054196,5.080956 13.1913804,4.87036847 13.0528349,4.74914109 C12.9142893,4.62791377 12.7037018,4.64195294 12.5824744,4.78049847 L8.35483644,9.61208473 C8.24230603,9.74069094 8.0807597,9.7421527 7.96761741,9.61730603 L3.580329,4.7761602 C3.45670567,4.63974827 3.24590545,4.62938103 3.10949353,4.75300433 C2.97308159,4.87662767 2.96271437,5.08742786 3.08633769,5.2238398 L7.47362609,10.0649856 Z" id="down" fill="#333333"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,87 @@
+body {
+  font-family: 'SUIT', sans-serif;
+}
+
+.search_history_wrapper {
+  box-sizing: border-box;
+  width: 100%;
+  height: 250px;
+  padding-top: 80px;
+  margin: 0 auto;
+}
+.search_history_content {
+  box-sizing: border-box;
+  width: 100%;
+  height: 168px;
+  max-width:1366px;
+  margin: 0 auto;
+}
+.search_history_content_title {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+.history_section_wrapper {
+  display: flex;
+}
+.history_section {
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  border: 1px solid #e5e5e5;
+  border-radius: 6px;
+  width: 440px;
+  height: 71px;
+  margin-right: 10px;
+  padding: 10px;
+  font-size: 20px;
+  font-weight: 550;
+  line-height: 60px;
+}
+.history_section_content {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  margin-right: 200px;
+}
+.train_icon {
+  box-sizing: border-box;
+  width: 24px;
+  height: 24px;
+  margin-right: 15px;
+}
+.onWay_icon {
+  margin: 0px 20px;
+  line-height: 20px;
+}
+.close_icon {
+  float: right;
+  /* box-sizing: border-box;ss */
+  width: 16px;
+  height: 16px;
+  /* padding-right: 30px; */
+}
+
+.notice_wrapper{
+  box-sizing: border-box;
+  width: 100%;
+  height: 200px;
+  margin: 0 auto ;
+  max-width: 1366px;
+}
+.notice_content {
+  display: flex;
+  box-sizing: border-box;
+  /* border: 1px solid blue; */
+  background: #fcf0f6;
+  width: 1350px;
+  height: 100%;
+  padding: 40px;
+}
+.notice_text {
+  box-sizing: border-box;
+  /* border: 1px solid blue; */
+  width: 1100px;
+  height: 100%;
+  line-height: 30px;
+}

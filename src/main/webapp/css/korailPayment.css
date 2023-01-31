@@ -1,0 +1,653 @@
+/* ////////////////////////////////////////// */
+.main.sub{
+  width:100%;
+  max-width:1366px;
+  margin: 0 auto;
+}
+
+/* ////////////////////////////////////////// */
+.privacy_popup{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 999;
+  display: none;
+}
+.privacy_popup.active {
+  display:block;
+}
+.dim{
+  background: rgba(0,0,0,0.5);
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: 99;
+}
+.privacy_popup_content {
+  box-sizing: border-box;
+  border-radius: 8px;
+  width: 700px;
+  background: #fff;
+  position: relative;
+  margin: auto;
+  padding:30px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  z-index: 99;
+}
+.privacy_popup_top{
+  display: flex;
+  justify-content: space-between;
+  font-size: 24px;
+  font-weight: 700;
+}
+.privacy_popup_body{
+  box-sizing: border-box;
+  height: 400px;
+  margin: 30px 0;
+  overflow-y:scroll;
+  font-size: 15px;
+  padding: 16px;
+}
+.privacy_popup_body::-webkit-scrollbar {
+  display:none;
+}
+.policy{
+  margin-bottom: 40px;
+}
+.policy>p{
+  margin: 10px 0;
+  line-height: 1.5;
+  color: #282f33;
+}
+
+.summary>ul{
+  color: #282f33;
+}
+.summary>ul>h2{ 
+  margin: 20px 0;
+}
+.summary>ul>li{
+  list-style:disc;
+  list-style-position: inside;
+  padding-top: 5px;
+}
+
+/* ///////////////////////////////////////////////// */
+.payment_page_box{
+  /* border: 1px solid red; */
+  width: 100%;
+  max-width: 1366px;
+  margin:0 auto;
+  padding-top: 70px;
+  display: flex;
+  justify-content: space-between;
+}
+.left{
+  /* border: 1px solid red; */
+  width: 50%;
+}
+.reservation_payment_info{
+  border: 1px solid #e5e5e5;
+  background: #f5f5f5;
+  /* margin-top: 30px; */
+  border-radius: 8px;
+}
+.reservation_payment_header {
+  border-bottom: 1px solid #e5e5e5;
+  box-sizing: border-box;
+  height: 100px;
+  padding: 40px 40px 30px;
+  font-size: 24px;
+  font-weight: 700;
+  background: #fff;
+}
+.reservation_payment_box {
+  box-sizing: border-box;
+  /* border: 1px solid blue; */
+  padding: 12px 20px;
+}
+.reservation_payment_content {
+  background: #fff;
+  /* border: 1px solid red; */
+  box-sizing: border-box;
+  padding: 20px;
+}
+
+.payment_info_title{
+  border-bottom: 1px solid #e5e5e5;
+  display: flex;
+  align-items: center;
+  /* font-size: 24px; */
+  /* font-weight: 700; */
+  padding-bottom: 10px;
+}
+
+.payment_info_title>img {
+  width: 20px;
+  height: 20px;
+  padding-right: 10px;
+}
+.korail_reservation_info_content {
+  box-sizing: border-box;
+  margin-top: 20px;
+}
+.payment_info_body {
+  font-size: 14px;
+}
+.railWay {
+  background: #e5e5e5;
+  border-radius: 25px;
+  width: 48px;
+  height: 20px;
+  font-size: 12px;
+  line-height: 1.7;
+  text-align: center;
+}
+.info{
+  box-sizing: border-box;
+  margin-top: 10px;
+  border: 1px solid #e5e5e5;
+}
+.top_info {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #e5e5e5 ;
+  padding: 20px 75px 30px 75px;
+}
+.time_form {
+  text-align: center;
+}
+.station {
+  font-size: 18px;
+
+}
+.time {
+  font-size: 20px;
+  font-weight: 700;
+}
+.timetaken_form{
+  margin-top: 6px;
+  font-size: 14px;
+}
+.train {
+  text-align: center;
+  margin-bottom: 6px;
+}
+.timetaken {
+  margin: 0px;
+  position: relative;
+  text-align: center;
+  background: #fff;
+  z-index: 0;
+}
+.timetaken span {
+  display: block;
+  border: 1px solid #e5e5e5;
+  background: #fff;
+  width: 95px;
+  height: 20px;
+  border-radius: 25px;
+  line-height: 1.5;
+}
+.timetaken::before {
+  content: "";
+  display: block;
+  position: absolute;
+  background: #999;
+  width: 130px;
+  height: 0.5px;
+  top: 10px;
+  right: -15px;
+  z-index: -5;
+}
+.m_info {
+  box-sizing: border-box;
+  padding: 30px 100px;
+  border-bottom: 1px solid #e5e5e5;
+  font-size: 14px;
+}
+.form {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+}
+.m_info>.form.form:nth-child(2) {
+  margin: 15px 0px;
+}
+.title {
+
+}
+.content {
+
+}
+.price_info {
+  box-sizing: border-box;
+  padding: 30px 100px;
+  text-align: end;
+  font-weight: 500;
+  font-size: 15px;
+}
+.reservation_payment_footer {
+  box-sizing: border-box;
+  background: #fff;
+  padding: 20px 20px;
+  display: flex;
+  justify-content: space-between;
+  font-weight: 500;
+}
+.sum_price_title {
+}
+.sum_price {
+  color: #d91c84;
+}
+.right {
+  width: 45%;
+}
+
+.payment_way {
+  border: 1px solid #e5e5e5;
+	border-radius: 8px;
+	padding: 0 0 20px;
+	margin: 0 0 30px;
+}
+.infocommon_title {
+  font-size: 24px;
+  font-weight: bold;
+  padding: 30px;
+}
+.selected_payment_way_list_card{}
+
+.selected_payment_way_list_card {
+  display: flex;
+  flex-direction:column;
+  margin-bottom: 10px;
+}
+.selected_wrapper {
+  border: 1px solid #e5e5e5;
+  border-radius: 4px;
+  margin: 0 30px 10px 30px;
+}
+.title_section {
+  display: flex;
+  padding: 20px;
+  align-items: center;
+}
+
+/* ////////////////////////////////////////////// */
+/* 여기부터 결제수단 (카드,무통장입금)*/
+.payment_way {
+	border: 1px solid #e5e5e5;
+	border-radius: 8px;
+	/* width: 558px; */
+	padding: 0 0 20px;
+	margin: 0 0 30px;
+}
+
+.selected_payment_way_list_card {
+	display: flex;
+	flex-direction:column;
+	margin-bottom: 10px;
+}
+.payment_logo {
+	float: left;
+	width: 22px;
+	height: 16px;
+}
+.payment_logo.card {
+	float: left;
+	width: 22px;
+	height: 16px;
+	-webkit-filter: opacity(.5) drop-shadow(0 0 0 #e5e5e5);
+}
+.payment_list_title {
+	font-size: 18px;
+	margin-left: 20px;
+}
+.title_section {
+	display: flex;
+	padding: 20px;
+	align-items: center;
+	cursor: pointer;
+	color: #e5e5e5;
+}
+.selected_wrapper {
+	border: 1px solid;
+	border-color: #e5e5e5;
+	border-radius: 4px;
+	margin: 0 30px 10px 30px;
+}
+.selecting_option {
+	margin: 0 20px 20px 28px;
+	display: none;
+}
+.selecting_option_title {
+	font-size: 18px;
+	margin-bottom: 10px;
+}
+.card_type {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+.card_option {
+	border: 1px solid #e5e5e5;
+	border-radius: 4px;
+	margin: 0 10px 10px 0;
+	font-size: 12px;
+	color: #e5e5e5;
+	cursor: pointer;
+	width: 100px;
+	text-align: center;
+	height: 60px;
+}
+.card_option.active {
+	border-color: #000000;
+	color: #000000;
+}
+.card_option > .card_image {
+	height: 16px;
+	margin-top: 10px;
+	filter: grayscale(100%);
+}
+.card_image.active {
+	filter:none;
+}
+.card_name {
+	margin: 6px 0;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+}
+.other_card {
+	width: 100%;
+	border: 1px solid #e5e5e5;
+	border-radius: 4px;
+	padding: 13px 10px;
+	font-size: 12px;
+	background: #ffffff no-repeat;
+	text-align: left;
+}
+.other_card:hover {
+	outline: 2px solid #d91c84;
+}
+.cardlist:hover {
+	background: #d91c84;
+	color: #ffffff;
+}
+.other_card_section {
+	margin-bottom: 20px;
+}
+.other_card_listbox {
+	width: 100%;
+	list-style: none;
+	background: #ffffff;
+	border: 1px solid #e5e5e5;
+	border-radius: 4px;
+	box-sizing: border-box;
+	margin-top: 8px;
+	overflow-y: scroll;
+	-ms-overflow-style: none;
+	display: none;
+}
+
+.other_card_list.active{
+	display: block;
+}
+.other_card_listbox::-webkit-scrollbar {
+  display:none;
+}
+.cardlist {
+	border: none;
+	background: #ffffff;
+	font-size: 12px;
+	padding: 8px 12px;
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+}
+
+.monthly_payment.month {
+	width: 100%;
+	border: 1px solid #e5e5e5;
+	border-radius: 4px;
+	padding: 13px 10px;
+	font-size: 12px;
+	background: #ffffff no-repeat;
+	text-align: left;
+}
+.monthly_payment.month:hover {
+	outline: 2px solid #d91c84;
+}
+.monthly_payment.bank {
+	width: 100%;
+	border: 1px solid #e5e5e5;
+	border-radius: 4px;
+	padding: 13px 10px;
+	font-size: 12px;
+	background: #ffffff no-repeat;
+	text-align: left;
+}
+.monthly_payment.bank:hover {
+	outline: 2px solid #d91c84;
+}
+.monthlylist {
+	border: none;
+	background: #ffffff;
+	font-size: 12px;
+	padding: 8px 12px;
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+}
+.monthlylist:hover {
+	background: #d91c84;
+	color: #ffffff;
+}
+.paymentlist:hover {
+	background: #d91c84;
+	color: #ffffff;
+}
+.selected_payment_way_list_bank {
+	border: 1px solid;
+	border-radius: 4px;
+	display: flex;
+	flex-direction: column;
+	margin: 0 30px 10px;
+	cursor: pointer;
+	color: #e5e5e5;
+	border-color: #e5e5e5;
+}
+
+.bank_wrapper {
+	display: flex;
+	padding: 20px 20px;
+	align-items: center;
+}
+.bank_payment_section {
+	display: none;
+}
+.bank_payment_wrapper {
+	display: flex;
+	flex-direction: column;
+	padding: 0 20px 20px;
+}
+.bank_payment {
+	width: 100%;
+	border: 1px solid #e5e5e5;
+	border-radius: 4px;
+	padding: 13px 10px;
+	font-size: 12px;
+	background: #ffffff no-repeat;
+	text-align: left;
+}
+.bank_payment:hover {
+	outline: 2px solid #d91c84;
+}
+.selecting_payment.month {
+	width: 100%;
+	/* height: 300px; */
+	list-style: none;
+	background: #ffffff;
+	border: 1px solid #e5e5e5;
+	border-radius: 4px;
+	box-sizing: border-box;
+	margin-top: 8px;
+	overflow-y: scroll;
+	-ms-overflow-style: none;
+	display: none;
+}
+.selecting_payment.bank {
+	width: 100%;
+	height: 300px;
+	list-style: none;
+	background: #ffffff;
+	border: 1px solid #e5e5e5;
+	border-radius: 4px;
+	box-sizing: border-box;
+	margin-top: 8px;
+	overflow-y: scroll;
+	-ms-overflow-style: none;
+	display: none;
+}
+.selecting_payment::-webkit-scrollbar {
+  display:none;
+}
+.paymentlist {
+	border: none;
+	background: #ffffff;
+	font-size: 12px;
+	padding: 8px 12px;
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+}
+.installment_notice {
+	margin: 30px 0;
+	font-size: 14px;
+	color: #d91c84;
+	cursor: pointer;
+}
+
+
+  
+.agree_box {
+  box-sizing: border-box;
+  border: 1px solid #e5e5e5;
+  border-radius: 8px;
+  margin: 40px 0px;
+  padding: 40px 30px;
+}
+.agree_title {
+  /* border: 1px solid red; */
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+.agree_content {
+  box-sizing: border-box;
+  /* border: 1px solid red; */
+  background: #fafafa;
+  padding: 20px;
+}
+.all_agree {
+  font-size: 16px;
+  font-weight: 700;
+}
+.all_agree>input {
+  margin-right: 10px;
+}
+.agree_content_detail {
+  box-sizing: border-box;
+  /* border: 1px solid red; */
+  padding: 20px;
+}
+.agree {
+  display: flex;
+  padding-right: 10px;
+  font-size: 16px;
+  font-weight: 500;
+  padding-bottom: 10px;
+}
+.agree>input {
+  margin-right: 10px;
+}
+.agree>button {
+  background: none;
+  border: none;
+  margin-left: auto;
+}
+.professional_view {
+  font-size: 14px;
+  color: #d91c84;
+}
+.payment_info {
+  border: 1px solid #e5e5e5;
+  border-radius: 8px;
+  box-sizing: border-box;
+  padding: 40px 30px;
+}
+.payment_info_header {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+.payment_info_subtitle {
+  color: #999;
+  display: flex;
+  font-weight: 600;
+}
+.payment_info_subtitle:nth-child(2) {
+  margin: 25px 0px;
+}
+.payment_info_subtitle>span{
+  justify-content: center;
+  margin-left: auto;
+  color: black;
+}
+.payment_info_footer {
+  box-sizing: border-box;
+  /* border: 1px solid blue; */
+  border-top: 1px solid #e5e5e5 ;
+  border-bottom: 1px solid #e5e5e5;
+  padding: 30px 0px;
+  font-size: 20px;
+  font-weight: 500;
+}
+.total_price {
+  display: flex;
+}
+.total_price>span {
+  justify-content: center;
+  margin-left: auto;
+  font-weight: 600;
+}
+.last_check {
+  color: #999;
+  margin: 30px 0px;
+  font-size: 12px;
+  line-height: 20px;
+}
+.payment_next_btn>input {
+  font-size: 20px;
+  font-weight: 600;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  width: 100%;
+  height: 56px;
+  font-size: 15px;
+  background: linear-gradient(45deg, rgb(245, 3, 100) 1%, rgb(172, 66, 169) 100%);
+}
+
+@media screen and (max-width: 1366px) {
+  .main.sub {
+    padding: 0 1em;
+    box-sizing: border-box;
+  }
+}

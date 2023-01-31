@@ -1,0 +1,233 @@
+body {
+    font-family: 'SUIT',sans-serif !important;
+}
+.wrapper {
+	width : 420px;
+	height : 664.34px;
+    padding : 50px 0px 0px 0px;
+    margin: 0px auto;
+   
+}
+.wrapper_content {
+    box-sizing: border-box;
+    padding: 30px;
+}
+.login_title {
+    width: 100%;
+    height: 29.980px;
+    margin : 0px 0px 36px 0px;
+    font-size: 21px;
+    font-weight: bold;
+}
+.login_form {
+    width: 360px;
+    height: 160px;
+}
+.login_form_input {
+    box-sizing: border-box;
+    margin: 0px 0px 20px 0px;
+    width: 360px;
+    height: 40px;
+    padding: 6px 10px;
+    border: 1.25px solid rgb(196, 196, 196) ;
+    border-radius: 4px;
+    font-size:13px;
+    font-style: rgb(196, 196, 196);
+    /* position: relative; */
+}
+.login_form_input::placeholder {
+    color: rgb(196, 196, 196);
+}
+.login_form_input:focus {
+    outline: none;
+}
+.login_form_box_alert{
+    position: relative;
+    width: 50px;
+    height: 10px;
+    background: #fff;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    /* border-bottom-color:red; */
+}
+.login_form_box_alert::after{
+    border-top: 0px solid transparent;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid #fff;
+    content: "";
+    position: absolute;
+}
+
+.login_button {
+    box-sizing: border-box;
+    width: 360px;
+    height: 40px;
+    color: #fff;
+    border: 1px solid #e5e5e5;
+    border-radius: 4px;
+    background: linear-gradient(45deg, rgb(245, 3, 100) 1%, rgb(172, 66, 169) 100%);
+    padding: 6px 12px;
+    font-size: 15px;
+    font-weight: 500;
+}
+.autologin_check_password_search {
+    box-sizing: border-box;
+    width: 360px; 
+    height: 50px;
+    margin : 20px 0px 5px 0px;
+    font-size: 11px;
+    color: #999;
+}
+
+.login_or_sns {
+    position: relative;
+    margin: 0px 0px 2px 0px;
+    text-align: center;
+    color: #ddd;
+}
+.login_or_sns span {
+    display: block;
+    width: 40px;
+    margin: 0 auto;
+    background-color: #ffff;
+}
+.login_or_sns::before {
+    content : "";
+    display: block;
+    position: absolute;
+    top:60%;
+    width: 100%;
+    height: 0.5px;
+    background-color:#ddd;
+    z-index: -1;
+}
+
+.kakao_login {
+    width: 360px;
+    height: 40px;
+    background-color: #fff;
+    border-radius: 4px;
+    margin-top : 40px;
+    border: 1px solid rgb(196, 196, 196) ;
+    font-size: 13px;
+    color: #b5b5b5;
+}
+.kakao_login img{
+    width: 45px;
+    height: 14px;
+}
+
+.naver_login {
+    width: 360px;
+    height: 40px;
+    background-color: #fff;
+    border-radius: 4px;
+    margin-top : 40px;
+    border: 1px solid rgb(196, 196, 196) ;
+    font-size: 13px;
+    color: #b5b5b5;
+}
+.naver_login img{
+    width: 45px;
+    height: 14px;
+}
+
+.google_login {
+    width: 360px;
+    height: 40px;
+    background-color: #fff;
+    border-radius: 4px;
+    margin-top : 40px;
+    border: 1px solid rgb(196, 196, 196);
+    font-size: 13px;
+    color: #b5b5b5;
+}
+.google_login img{
+    width: 45px;
+    height: 14px;
+}
+.google_login span {
+    font-size: 14px;
+}
+.sign_up_box {
+    margin-top: 20px;
+    box-sizing: border-box;
+    width: 360px;
+    height: 19px;
+    font-size: 12px;
+    text-align: center;
+    color: #999;
+}
+.popUp_check {
+    /* display: none; */
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 9;
+}
+.dim {
+    background-color: rgba(0,0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+.password_reset {
+    font-size: 14px;
+    color: #999;
+    box-sizing: border-box;
+    /* border: 1.25px solid red; */
+    border-radius: 4px;
+    width: 420px;
+    height: 286px;
+    margin: 65px auto 0px auto;
+    padding: 32px 10px 0px 10px;
+    position: relative;
+    background: #fff;
+}
+.password_content {
+    padding: 22px;
+}
+.notice-password {
+    margin: 23px 0px 23px 0px;
+    line-height: 1.5;
+
+}
+.reset_login_form_box {
+    box-sizing: border-box;
+    width: 353px;
+    height: 40px;
+    border-radius: 4px;
+    border:1.25px solid #b5b5b5;
+    padding: 6px 10px;
+    margin-bottom: 20px;
+
+}
+.reset_login_form_box::placeholder {
+    color: rgb(196, 196, 196);
+}
+.URL_send {
+    box-sizing: border-box;
+    width: 353.5px;
+    height: 40px;
+    color: #fff;
+    border: 1px solid #e5e5e5;
+    border-radius: 4px;
+    background: linear-gradient(45deg, rgb(245, 3, 100) 1%, rgb(172, 66, 169) 100%);
+    padding: 6px 20px;
+}
+.close_button {
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    top: -23px;
+    right: -23px;
+    width: 40px;
+    height: 40px;
+
+}
+.close_button_icon{
+    color: #fff;
+    width: 100%;
+    height: 100%;
+}
